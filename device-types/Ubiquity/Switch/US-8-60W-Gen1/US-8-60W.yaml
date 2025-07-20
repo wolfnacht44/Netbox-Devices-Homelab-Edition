@@ -1,0 +1,317 @@
+manufacturer: Ubiquiti
+model: UAP AC Professional
+slug: ubiquiti-uap-ac-pro
+description: Wireless Access Point (Wifi 5)
+default_platform: null
+part_number: UAP-AC-PRO
+u_height: 0.0
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: 350.0
+weight_unit: g
+comments: "[Ubiquity Store Page](https://store.ui.com/collections/wireless/products/uap-ac-pro)\r\
+  \n\r\n###Coverage Area\r\n140 m\xB2 (1,500 ft\xB2)\r\n\r\n###Max. Client Count\r\
+  \n250+\r\n\r\n###WiFi Standard\r\nWiFi 5"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type1-ieee802.3af
+  rf_role: ''
+- name: eth1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: wlan0
+  type: ieee802.11n
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: wlan1
+  type: ieee802.11ac
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+---
+manufacturer: Ubiquiti
+model: UniFi Switch 8 PoE 60W
+slug: ubiquiti-unifi-switch-8-poe-60w-gen1
+description: ''
+default_platform: Unifi
+part_number: US-8-60W
+u_height: 0.5
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: 15.2
+weight_unit: oz
+comments: "[Ubiquity Store Page](https://store.ui.com/us/en/products/us-8-60w)\r\n\
+  \r\nUniFi Switch 8 PoE 60W (12.4W + PoE), Gen1, Desk/WallMount, External VDC PSU(48VDC\
+  \ input @ Barrel Jack), (8) Gigabit, (5-8) Gigabit PoE: IEEE802.3a\r\n\r\nDimensions:\
+  \ 148.0 x 99.5 x 30.7 mm (5.83 x 3.92 x 1.21\")"
+power-ports:
+- name: Input
+  type: iec-60320-c14
+  maximum_draw: 60
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: Port 1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 4
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 5 (PoE)
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: ''
+- name: Port 6 (PoE)
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: Port 7 (PoE)
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: ''
+- name: Port 8 (PoE)
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: ''
+---
+manufacturer: Ubiquiti
+model: UniFi Switch Flex Mini
+slug: ubiquiti-unifi-switch-flex-mini
+description: ''
+default_platform: null
+part_number: USW-Flex-Mini
+u_height: 0.0
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: 150.0
+weight_unit: g
+comments: 107.16 x 70.15 x 21.17 mm (4.22 x 2.76 x 0.83")
+interfaces:
+- name: Port 1 (PoE IN)
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type2-ieee802.3at
+  rf_role: ''
+- name: Port 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 4
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 5
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+---
+manufacturer: Ubiquiti
+model: USG-PRO-4
+slug: usg-pro-4
+description: ''
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: false
+subdevice_role: null
+airflow: null
+weight: null
+weight_unit: null
+comments: WAN & SFP Port's are shared, chose one per ID.
+console-ports:
+- name: Console
+  type: rj-45
+  label: ''
+  description: ''
+- name: USB
+  type: usb-a
+  label: ''
+  description: ''
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 60
+  allocated_draw: 40
+  label: ''
+  description: ''
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: LAN 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: WAN 1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: WAN 1 SFP
+  type: 1000base-x-sfp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: WAN 1
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: WAN 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: WAN 2 SFP
+  type: 1000base-x-sfp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: WAN 2
+  poe_mode: null
+  poe_type: null
+  rf_role: null
